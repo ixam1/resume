@@ -11,3 +11,7 @@
 		@apply py-24;
 	}
 }
+
+:root {
+	color-scheme: dark;
+}
