@@ -15,8 +15,9 @@ function Experience() {
 				timeline={[
 					{
 						title: "Selbstständiger Webentwickler",
-						subtitle: "Webentwicklung 030 Berlin GmbH (Webagentur)",
+						subtitle: "Webentwicklung 030 Berlin GmbH",
 						time: "März 2021 - aktuell",
+						info: "Gründung einer eigenen Webagentur mit ehemaligen Chef als Partner",
 						items: [
 							{
 								description: "Webseiten Design, Erstellung und SEO-Optimierung",

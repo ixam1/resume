@@ -16,7 +16,7 @@ function Education() {
 					{
 						title: "Bachelor Mathematik / Informatik",
 						subtitle: "Humboldt-Universität zu Berlin",
-						info: "Wechsel des Zweitfaches von Physik zu Informatik in 2020",
+						info: "Gründung der eigenen Firma während des Studiums",
 						time: "2017 - 2021",
 					},
 					{
