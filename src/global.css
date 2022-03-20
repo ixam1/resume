@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+	.sectionwidth {
+		@apply px-4 mx-auto sm:px-6 sm:max-w-2xl lg:px-12 lg:max-w-[80rem];
+	}
+
+	.sectionpadding {
+		@apply py-10 sm:py-12 xl:py-24;
+	}
+}

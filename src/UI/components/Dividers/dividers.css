@@ -1,0 +1,49 @@
+.custom-shape-divider-bottom-1647815255 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
+	transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1647815255 svg {
+	position: relative;
+	display: block;
+	width: calc(100% + 1.3px);
+	height: 42px;
+}
+
+.custom-shape-divider-bottom-1647815442 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
+}
+
+.custom-shape-divider-bottom-1647815442 svg {
+	position: relative;
+	display: block;
+	width: calc(100% + 1.3px);
+	height: 72px;
+}
+
+.custom-shape-divider-bottom-1647815508 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
+	transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1647815508 svg {
+	position: relative;
+	display: block;
+	width: calc(100% + 1.3px);
+	height: 83px;
+}
