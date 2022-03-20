@@ -24,7 +24,7 @@ function Description() {
 				))}
 			</p>
 			<p>
-				Dynamischer und motivierter Full-Stack Webentwickler mit langer
+				Zuverlässiger und motivierter Full-Stack Webentwickler mit langer
 				IT-Ausbildung. Spezialisiert auf Front-End Entwicklung, jedoch ohne
 				Scheu zum Back-End. Leidenschaft zum kreativen Lösen von konkreten
 				Problemen mit Hilfe des Webs. Anpassungsfähiger und lernbereiter
