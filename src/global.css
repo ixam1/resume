@@ -8,6 +8,6 @@
 	}
 
 	.sectionpadding {
-		@apply py-10 sm:py-12 xl:py-24;
+		@apply py-24;
 	}
 }

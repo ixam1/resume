@@ -12,7 +12,7 @@ function PageTitle() {
 	return (
 		<h1 className="text-center w-full text-white">
 			<span className="block text-3xl font-bold mb-4">Hallo 👋</span>
-			<span className="block font-extrabold text-6xl">
+			<span className="block font-extrabold text-xl sm:text-4xl lg:text-6xl">
 				Ich <RotatingText strings={strings} className="text-primary" />
 			</span>
 		</h1>

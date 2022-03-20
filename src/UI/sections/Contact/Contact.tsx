@@ -12,7 +12,7 @@ function Contact() {
 			<SectionTitle>
 				<u>Kontaktiere mich</u>
 			</SectionTitle>
-			<div className="flex gap-16 w-full">
+			<div className="flex gap-16 w-full justify-center flex-wrap lg:flex-nowrap">
 				<ContactIcons />
 				<div className="flex-grow">
 					<ContactForm />

@@ -184,7 +184,7 @@ function Skills() {
 										skill.level === 1 && "border-white",
 										skill.level === 2 && "border-primary",
 										skill.level === 3 &&
-											"bg-primary text-accent font-bold border border-transparent"
+											"bg-primary text-accent font-bold border-transparent"
 									)}
 								>
 									{skill.name}

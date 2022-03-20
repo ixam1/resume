@@ -6,7 +6,7 @@ import InputGroup from "./InputGroup"
 
 function ContactForm() {
 	return (
-		<form name="Kontakt" className="space-y-12 w-full" data-netlify="true">
+		<form name="Kontakt" className="space-y-8 w-full" data-netlify="true">
 			<div className="grid md:grid-cols-2 gap-8">
 				<InputGroup name="Name" required />
 				<InputGroup name="E-Mail" type="email" required />

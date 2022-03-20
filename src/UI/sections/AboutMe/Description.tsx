@@ -11,7 +11,7 @@ function Description() {
 				Hallo!{" "}
 				<span className="text-primary">Ich heiße Maximilian Schaum.</span>
 			</h3>
-			<p className="flex gap-4 mb-4 justify-center items-center">
+			<p className="flex gap-4 mb-4 justify-center items-center flex-wrap">
 				{titles.map((title, index) => (
 					<React.Fragment key={index}>
 						<span className="font-bold">{title}</span>

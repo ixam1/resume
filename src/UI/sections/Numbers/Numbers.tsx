@@ -26,7 +26,7 @@ function Numbers() {
 			<SectionTitle>
 				Ein paar <u>Zahlen</u>
 			</SectionTitle>
-			<ul className="flex justify-center">
+			<ul className="flex justify-center flex-wrap gap-8">
 				{stats.map((stat, index) => (
 					<li
 						key={index}

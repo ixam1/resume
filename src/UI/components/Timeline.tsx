@@ -54,7 +54,7 @@ function Timeline(props: Props) {
 							<div className="flex-grow bg-white w-px"></div>
 						</div>
 						<div className={clsx("flex-1 px-2", isOdd && "lg:order-first")}>
-							<div className="block lg:hidden text-accent-400 text-sm">
+							<div className="block lg:hidden text-accent-400 text-sm mb-1">
 								{timeline.time}
 							</div>
 							<h2 className="mb-1 font-bold">{timeline.title}</h2>
