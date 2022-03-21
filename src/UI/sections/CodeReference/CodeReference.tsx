@@ -33,7 +33,7 @@ function CodeReference() {
 				<h3 className="text-primary font-bold mb-4">
 					<Trans>Gemacht mit</Trans>
 				</h3>
-				<ul className="flex flex-wrap gap-4">
+				<ul className="flex flex-wrap justify-center gap-4">
 					{technologies.map(({ name, icon }) => (
 						<li
 							key={name}
