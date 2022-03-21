@@ -2,7 +2,7 @@ const siteMetadata = {
 	title: "Maximilian Schaum - Full-Stack Webentwickler",
 	description: "Resume von Maximilian Schaum",
 	image: "/logo_social.png",
-	siteUrl: `https://max-s-resume.netlify.app/`,
+	siteUrl: `https://max-s-resume.netlify.app`,
 }
 
 /** @type {import('gatsby').GatsbyConfig} */

@@ -17,7 +17,12 @@ function LanguagePicker({
 		<Popover className={"relative " + className}>
 			<Helmet>
 				{languages.map((lang) => (
-					<link rel="preload" as="image" href={`/${lang}.png`}></link>
+					<link
+						key={lang}
+						rel="preload"
+						as="image"
+						href={`/${lang}.png`}
+					></link>
 				))}
 			</Helmet>
 			<Popover.Button className={"p-2 rounded-xl hover:bg-accent-600"}>
