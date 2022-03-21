@@ -13,7 +13,7 @@ function ContactForm() {
 			</div>
 			<InputGroup name="Nachricht" type="textarea" rows={10} />
 			<div className="flex justify-end">
-				<PrimaryButton As="button" type="button">
+				<PrimaryButton As="button" type="submit">
 					Absenden <FontAwesomeIcon icon={faSend} />
 				</PrimaryButton>
 			</div>
