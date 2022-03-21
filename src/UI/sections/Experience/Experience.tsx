@@ -70,7 +70,7 @@ function Experience() {
 					{
 						title: "Werkstudent IT / Controlling",
 						subtitle: "VIPCRUITER GmbH",
-						time: "Juni 2020 - März 2021",
+						time: "Septermber 2019 - Juni 2020",
 						items: [
 							{
 								description: "Reporting Dashboard Entwicklung",
@@ -80,6 +80,22 @@ function Experience() {
 								description: "Excel VBA Programmierung",
 							},
 							{ description: "Prozessmodellierung und -automatisierung" },
+						],
+					},
+
+					{
+						title: "Werkstudent Webentwicklung",
+						subtitle: "SCHAUM MASSIVHAUS",
+						time: "Mai 2017 - August 2019",
+						items: [
+							{
+								description:
+									"Webseiten Erstellung, Instandhaltung und Optimierung",
+								technologies: ["HTML", "CSS", "JS", "PHP"],
+							},
+							{
+								description: "IT-Administration und Buchhaltung",
+							},
 						],
 					},
 

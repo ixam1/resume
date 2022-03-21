@@ -15,7 +15,7 @@ const stats = [
 	},
 	{
 		name: "professionelle Erfahrung als Webentwickler",
-		value: 2,
+		value: 4,
 		subtitle: "Jahre",
 	},
 ]
