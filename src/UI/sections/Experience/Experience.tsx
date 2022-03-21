@@ -132,6 +132,12 @@ function Experience() {
 								description: t("IT-Administration und Buchhaltung"),
 							},
 						],
+						buttons: [
+							{
+								text: t("Arbeitszeugnis"),
+								href: "/Arbeitszeugnis Schaum Massivhaus.pdf",
+							},
+						],
 					},
 
 					{
@@ -144,6 +150,12 @@ function Experience() {
 							},
 							{
 								description: t("Java Webapplikation und Schnittstellen"),
+							},
+						],
+						buttons: [
+							{
+								text: t("Arbeitszeugnis"),
+								href: "/Arbeitszeugnis Igepa.pdf",
 							},
 						],
 					},

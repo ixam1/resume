@@ -23,6 +23,12 @@ function Education() {
 						subtitle: "Humboldt-Universität zu Berlin",
 						info: t("Gründung der eigenen Firma während des Studiums"),
 						time: "2017 - 2021",
+						buttons: [
+							{
+								text: t("Abschlusszeugnis"),
+								href: t("/Bachelor Abschlusszeugnis.pdf"),
+							},
+						],
 					},
 					{
 						title: t(
@@ -30,6 +36,12 @@ function Education() {
 						),
 						subtitle: "Oberstufenzentrum Informations- und Medizintechnik",
 						time: "2014 - 2017",
+						buttons: [
+							{
+								text: t("Abschlusszeugnis"),
+								href: "/IHK Abschlusszeugnis.pdf",
+							},
+						],
 					},
 				]}
 			/>
