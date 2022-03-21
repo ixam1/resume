@@ -29,7 +29,7 @@ function CodeReference() {
 				Diese Website ist <u>Open-Source</u>
 			</SectionTitle>
 			<div className="text-center">
-				<h3 className="text-primary font-bold mb-4">Technologien</h3>
+				<h3 className="text-primary font-bold mb-4">Gemacht mit</h3>
 				<ul className="flex flex-wrap gap-4">
 					{technologies.map(({ name, icon }) => (
 						<li
