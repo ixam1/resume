@@ -7,7 +7,11 @@ function AllSocialButtons() {
 		<ul className="flex gap-4">
 			{socials.map((social, index) => (
 				<li key={index}>
-					<SocialButton icon={social.icon} url={social.url} />
+					<SocialButton
+						icon={social.icon}
+						url={social.url}
+						name={social.name}
+					/>
 				</li>
 			))}
 		</ul>

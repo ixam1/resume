@@ -62,7 +62,10 @@ function Header() {
 								languages={languages}
 								setLanguage={changeLanguage}
 							/>
-							<Popover.Button className="p-2 rounded hover:bg-accent-600 font-bold">
+							<Popover.Button
+								title="Mobile Menu"
+								className="p-2 rounded hover:bg-accent-600 font-bold"
+							>
 								<FontAwesomeIcon icon={open ? faX : faBars} size="lg" />
 							</Popover.Button>
 						</div>
