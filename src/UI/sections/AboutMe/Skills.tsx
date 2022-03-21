@@ -151,7 +151,12 @@ function Skills() {
 				},
 
 				{
-					name: "Git / Github",
+					name: "Git",
+					level: 2,
+				},
+
+				{
+					name: "Github Actions",
 					level: 2,
 				},
 

@@ -28,10 +28,24 @@ function Experience() {
 						items: [
 							{
 								description: t(
+									"Optimierung von Kunden Webseiten in Bezug auf organische Bewerbergewinnung - Steigerung von 0 - 1 Bewerbern zu 10 - 20 Bewerbern im Monat"
+								),
+							},
+
+							{
+								description: t(
 									"Webseiten Design, Erstellung und SEO-Optimierung"
 								),
 								technologies: ["React.js", "Gatsby.js"],
 							},
+
+							{
+								description: t(
+									"Implementieren von Schnittstellen zu externen Jobbörsen zur automatischen Übertragung von Jobs"
+								),
+								technologies: ["RestAPI"],
+							},
+
 							{
 								description: t(
 									"Firmeneigenes Website-Verwaltungssystem für Kunden"
