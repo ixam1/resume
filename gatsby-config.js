@@ -61,6 +61,15 @@ module.exports = {
 				name: `locale`,
 			},
 		},
+
+		{
+			resolve: "gatsby-plugin-robots-txt",
+			options: {
+				host: siteMetadata.siteUrl,
+				policy: [{ userAgent: "*", disallow: ["/"] }],
+			},
+		},
+
 		{
 			resolve: `gatsby-plugin-react-i18next`,
 			options: {
