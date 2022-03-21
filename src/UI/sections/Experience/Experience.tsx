@@ -69,7 +69,7 @@ function Experience() {
 
 					{
 						title: "Werkstudent IT / Controlling",
-						subtitle: "VIPCRUITER GmbH",
+						subtitle: "Mercedes-Benz AG",
 						time: "Septermber 2019 - Juni 2020",
 						items: [
 							{
@@ -80,6 +80,12 @@ function Experience() {
 								description: "Excel VBA Programmierung",
 							},
 							{ description: "Prozessmodellierung und -automatisierung" },
+						],
+						buttons: [
+							{
+								text: "Arbeitszeugnis",
+								href: "/Arbeitszeugnis Mercedes Benz.pdf",
+							},
 						],
 					},
 

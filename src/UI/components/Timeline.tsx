@@ -1,7 +1,9 @@
 import { faCircle } from "@fortawesome/pro-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import clsx from "clsx"
+import { Link } from "gatsby"
 import React from "react"
+import PrimaryButton from "./PrimaryButton"
 
 type Props = {
 	timeline: {
@@ -12,6 +14,10 @@ type Props = {
 		items?: {
 			description: string
 			technologies?: string[]
+		}[]
+		buttons?: {
+			text: string
+			href: string
 		}[]
 	}[]
 }
@@ -53,7 +59,9 @@ function Timeline(props: Props) {
 							/>
 							<div className="flex-grow bg-white w-px"></div>
 						</div>
-						<div className={clsx("flex-1 px-2", isOdd && "lg:order-first")}>
+						<div
+							className={clsx("flex-1 px-2 pb-16", isOdd && "lg:order-first")}
+						>
 							<div className="block lg:hidden text-accent-400 text-sm mb-1">
 								{timeline.time}
 							</div>
@@ -64,7 +72,7 @@ function Timeline(props: Props) {
 									{timeline.info}
 								</small>
 							)}
-							<ul className="flex flex-col gap-8 mb-16">
+							<ul className="flex flex-col gap-8">
 								{timeline.items?.map((item, index) => (
 									<li key={index} className="text-sm first:mt-8">
 										{item.description}
@@ -88,6 +96,25 @@ function Timeline(props: Props) {
 									</li>
 								))}
 							</ul>
+							{timeline.buttons && (
+								<ul
+									className={clsx(
+										"flex flex-col gap-2 mt-8",
+										isOdd && "lg:justify-end"
+									)}
+								>
+									{timeline.buttons.map((button, index) => (
+										<li key={index}>
+											<Link
+												to={button.href}
+												className="text-accent font-bold bg-primary tracking-widest text-sm px-4 py-2 rounded-xl hover:bg-primary-400 transition-colors"
+											>
+												{button.text}
+											</Link>
+										</li>
+									))}
+								</ul>
+							)}
 						</div>
 					</li>
 				)
