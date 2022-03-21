@@ -4,7 +4,7 @@ import RotatingText from "./RotatingText"
 function PageTitle() {
 	const strings = [
 		"heiße Maximilian Schaum.",
-		"bin ein Webentwickler.",
+		"bin Webentwickler.",
 		"liebe Front-End.",
 		"scheue auch kein Back-End.",
 	]
