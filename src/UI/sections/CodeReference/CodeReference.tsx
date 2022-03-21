@@ -5,6 +5,7 @@ import { faReact } from "@fortawesome/free-brands-svg-icons"
 import Section from "../../components/Section"
 import SectionTitle from "../../components/SectionTitle"
 import { WaveDivider1 } from "../../components/Dividers"
+import nav from "../../../constants/nav"
 
 const technologies = [
 	{
@@ -24,7 +25,7 @@ const technologies = [
 
 function CodeReference() {
 	return (
-		<Section className="bg-accent">
+		<Section id={nav.Code} className="bg-accent">
 			<SectionTitle>
 				Diese Website ist <u>Open-Source</u>
 			</SectionTitle>
