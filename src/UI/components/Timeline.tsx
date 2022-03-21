@@ -78,10 +78,7 @@ function Timeline(props: Props) {
 												{item.technologies.map((technology, index) => (
 													<li
 														key={index}
-														className={clsx(
-															"rounded border px-1 py-px text-xs",
-															"border-primary"
-														)}
+														className="rounded bg-accent-600 px-1 py-px text-xs font-medium hover:bg-primary transition-colors"
 													>
 														{technology}
 													</li>
