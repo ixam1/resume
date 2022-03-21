@@ -3,8 +3,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import React from "react"
 import PrimaryButton from "../../components/PrimaryButton"
 import InputGroup from "./InputGroup"
+import { Trans, useTranslation } from "gatsby-plugin-react-i18next"
 
 function ContactForm() {
+	const { t } = useTranslation()
 	return (
 		<form
 			name="Kontakt"
@@ -22,10 +24,10 @@ function ContactForm() {
 				<InputGroup name="Name" required />
 				<InputGroup name="E-Mail" type="email" required />
 			</div>
-			<InputGroup name="Nachricht" type="textarea" rows={10} />
+			<InputGroup name={t("Nachricht")} type="textarea" rows={10} />
 			<div className="flex justify-end">
 				<PrimaryButton As="button" type="submit">
-					Absenden <FontAwesomeIcon icon={faSend} />
+					<Trans>Absenden</Trans> <FontAwesomeIcon icon={faSend} />
 				</PrimaryButton>
 			</div>
 		</form>

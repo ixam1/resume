@@ -7,7 +7,7 @@ function Footer() {
 		<footer className="w-full bg-accent-900 text-white py-5">
 			<div className="sectionwidth flex items-center justify-between flex-wrap gap-4">
 				<div className="text-sm">
-					Copyright © 2022 Maximilian Schaum -{" "}
+					© 2022 Maximilian Schaum -{" "}
 					<Link to="/impressum" className="hover:underline">
 						Impressum
 					</Link>{" "}

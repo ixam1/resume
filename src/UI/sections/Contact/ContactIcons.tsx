@@ -6,28 +6,31 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import React from "react"
 import contact from "../../../constants/contact"
-
-const contactIcons = [
-	{
-		title: "Ruf mich an",
-		icon: faMobile,
-		text: contact.phone,
-		linkPre: "tel:",
-	},
-	{
-		title: "Schreib mir eine E-Mail",
-		icon: faEnvelope,
-		text: contact.email,
-		linkPre: "mailto:",
-	},
-	{
-		title: "Finde mich in",
-		icon: faMapMarkerAlt,
-		text: contact.address,
-	},
-]
+import { useTranslation } from "gatsby-plugin-react-i18next"
 
 function ContactIcons() {
+	const { t } = useTranslation()
+
+	const contactIcons = [
+		{
+			title: t("Ruf mich an"),
+			icon: faMobile,
+			text: contact.phone,
+			linkPre: "tel:",
+		},
+		{
+			title: t("Schreib mir eine E-Mail"),
+			icon: faEnvelope,
+			text: contact.email,
+			linkPre: "mailto:",
+		},
+		{
+			title: t("Finde mich in"),
+			icon: faMapMarkerAlt,
+			text: contact.address,
+		},
+	]
+
 	return (
 		<ul className="space-y-12 text-white">
 			{contactIcons.map((item, index) => (

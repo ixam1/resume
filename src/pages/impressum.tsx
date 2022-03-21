@@ -24,6 +24,13 @@ function impressum() {
 						<br />
 						E-Mail: max.schaum4@gmail.com
 					</p>
+					<a target="_blank" href="https://icons8.de/icon/set/flags/doodle">
+						Flaggen
+					</a>{" "}
+					icons von{" "}
+					<a target="_blank" href="https://icons8.com">
+						Icons8
+					</a>
 				</div>
 			</Section>
 		</Layout>

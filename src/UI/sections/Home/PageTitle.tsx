@@ -1,19 +1,24 @@
 import React from "react"
 import RotatingText from "./RotatingText"
+import { Trans, useTranslation } from "gatsby-plugin-react-i18next"
 
 function PageTitle() {
+	const { t } = useTranslation()
 	const strings = [
-		"heiße Maximilian Schaum.",
-		"bin Webentwickler.",
-		"liebe Front-End.",
-		"scheue auch kein Back-End.",
+		t("heiße Maximilian Schaum."),
+		t("bin Webentwickler."),
+		t("liebe Front-End."),
+		t("scheue auch kein Back-End."),
 	]
 
 	return (
 		<h1 className="text-center w-full text-white">
-			<span className="block text-3xl font-bold mb-4">Hallo 👋</span>
+			<span className="block text-3xl font-bold mb-4">
+				<Trans>Hallo</Trans> 👋
+			</span>
 			<span className="block font-extrabold text-xl sm:text-4xl lg:text-6xl">
-				Ich <RotatingText strings={strings} className="text-primary" />
+				<Trans>Ich</Trans>{" "}
+				<RotatingText strings={strings} className="text-primary" />
 			</span>
 		</h1>
 	)

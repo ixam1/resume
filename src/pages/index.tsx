@@ -1,3 +1,4 @@
+import { graphql } from "gatsby"
 import React from "react"
 import Seo from "../UI/components/Seo"
 import Layout from "../UI/layout/Layout"
@@ -8,15 +9,17 @@ import Education from "../UI/sections/Education"
 import Experience from "../UI/sections/Experience"
 import Hero from "../UI/sections/Home"
 import Stats from "../UI/sections/Numbers"
+import { useTranslation } from "gatsby-plugin-react-i18next"
 
 function Page() {
+	const { t } = useTranslation()
 	return (
 		<Layout>
 			<Seo
-				title="Maximilian Schaum - Full-Stack Webentwickler"
-				description="Zuverlässiger und motivierter Full-Stack Webentwickler mit langer
-				IT-Ausbildung. Spezialisiert auf Front-End Entwicklung, jedoch ohne
-				Scheu zum Back-End."
+				title={t("Maximilian Schaum - Full-Stack Webentwickler")}
+				description={t(
+					"Zuverlässiger und motivierter Full-Stack Webentwickler mit langer IT-Erfahrung. Spezialisiert auf Front-End Entwicklung, jedoch ohne Scheu zum Back-End."
+				)}
 			/>
 			<Hero />
 			<AboutMe />
@@ -30,3 +33,17 @@ function Page() {
 }
 
 export default Page
+
+export const query = graphql`
+	query ($language: String!) {
+		locales: allLocale(filter: { language: { eq: $language } }) {
+			edges {
+				node {
+					ns
+					data
+					language
+				}
+			}
+		}
+	}
+`

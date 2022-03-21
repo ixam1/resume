@@ -6,31 +6,33 @@ import Section from "../../components/Section"
 import SectionTitle from "../../components/SectionTitle"
 import { WaveDivider1 } from "../../components/Dividers"
 import nav from "../../../constants/nav"
-
-const technologies = [
-	{
-		name: "React",
-		icon: faReact,
-	},
-	{
-		name: "Typescript",
-	},
-	{
-		name: "Gatsby.js",
-	},
-	{
-		name: "TailwindCSS",
-	},
-]
+import { Trans } from "gatsby-plugin-react-i18next"
 
 function CodeReference() {
+	const technologies = [
+		{
+			name: "React",
+			icon: faReact,
+		},
+		{
+			name: "Typescript",
+		},
+		{
+			name: "Gatsby.js",
+		},
+		{
+			name: "TailwindCSS",
+		},
+	]
 	return (
 		<Section id={nav.Code} className="bg-accent">
 			<SectionTitle>
-				Diese Website ist <u>Open-Source</u>
+				<Trans>Diese Website ist</Trans> <u>Open-Source</u>
 			</SectionTitle>
 			<div className="text-center">
-				<h3 className="text-primary font-bold mb-4">Gemacht mit</h3>
+				<h3 className="text-primary font-bold mb-4">
+					<Trans>Gemacht mit</Trans>
+				</h3>
 				<ul className="flex flex-wrap gap-4">
 					{technologies.map(({ name, icon }) => (
 						<li
@@ -53,7 +55,7 @@ function CodeReference() {
 				rel="noopener noreferer"
 				href="https://github.com/ixam1/resume"
 			>
-				Schau dir den Code an
+				<Trans>Schau dir den Code an</Trans>
 			</PrimaryButton>
 			<WaveDivider1 toColor="text-accent-900" />
 		</Section>

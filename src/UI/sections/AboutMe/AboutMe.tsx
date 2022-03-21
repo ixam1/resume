@@ -6,12 +6,15 @@ import SectionTitle from "../../components/SectionTitle"
 import Avatar from "./Avatar"
 import Description from "./Description"
 import Skills from "./Skills"
+import { Trans } from "gatsby-plugin-react-i18next"
 
 function AboutMe() {
 	return (
 		<Section id={nav["Über mich"]} className="bg-accent-900">
 			<SectionTitle>
-				<u>Über mich</u>
+				<u>
+					<Trans>Über mich</Trans>
+				</u>
 			</SectionTitle>
 			<Avatar />
 			<Description />

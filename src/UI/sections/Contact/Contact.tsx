@@ -5,12 +5,15 @@ import Section from "../../components/Section"
 import SectionTitle from "../../components/SectionTitle"
 import ContactForm from "./ContactForm"
 import ContactIcons from "./ContactIcons"
+import { Trans } from "gatsby-plugin-react-i18next"
 
 function Contact() {
 	return (
 		<Section id={nav.Kontakt} className="bg-accent">
 			<SectionTitle>
-				<u>Kontaktiere mich</u>
+				<u>
+					<Trans>Kontaktiere mich</Trans>
+				</u>
 			</SectionTitle>
 			<div className="flex gap-16 w-full justify-center flex-wrap lg:flex-nowrap">
 				<ContactIcons />

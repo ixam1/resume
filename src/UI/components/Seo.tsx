@@ -1,8 +1,8 @@
 import React from "react"
-import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useLocation } from "@reach/router"
 import { useStaticQuery, graphql } from "gatsby"
+import { useI18next } from "gatsby-plugin-react-i18next"
 
 type Props = {
 	title?: string
@@ -11,6 +11,8 @@ type Props = {
 }
 
 const Seo = ({ title, description, noIndex }: Props) => {
+	const { language } = useI18next()
+
 	const { pathname } = useLocation()
 	const { site } = useStaticQuery(query)
 
@@ -25,7 +27,7 @@ const Seo = ({ title, description, noIndex }: Props) => {
 	}
 
 	return (
-		<Helmet title={seo.title} htmlAttributes={{ lang: "de" }}>
+		<Helmet title={seo.title} htmlAttributes={{ lang: language }}>
 			{noIndex && <meta name="robots" content="noindex" />}
 
 			<meta name="description" content={seo.description} />

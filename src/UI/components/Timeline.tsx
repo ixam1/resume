@@ -1,9 +1,7 @@
 import { faCircle } from "@fortawesome/pro-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import clsx from "clsx"
-import { Link } from "gatsby"
 import React from "react"
-import PrimaryButton from "./PrimaryButton"
 
 type Props = {
 	timeline: {
@@ -105,12 +103,12 @@ function Timeline(props: Props) {
 								>
 									{timeline.buttons.map((button, index) => (
 										<li key={index}>
-											<Link
-												to={button.href}
+											<a
+												href={button.href}
 												className="text-accent font-bold bg-primary tracking-widest text-sm px-4 py-2 rounded-xl hover:bg-primary-400 transition-colors"
 											>
 												{button.text}
-											</Link>
+											</a>
 										</li>
 									))}
 								</ul>

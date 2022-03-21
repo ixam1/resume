@@ -4,11 +4,16 @@ import { Popover, Transition } from "@headlessui/react"
 import clsx from "clsx"
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import React, { Fragment } from "react"
-import nav from "../../constants/nav"
-import useActiveSectionId from "../../hooks/useActiveSectionId"
+import nav from "../../../constants/nav"
+import useActiveSectionId from "../../../hooks/useActiveSectionId"
+import { useTranslation, useI18next } from "gatsby-plugin-react-i18next"
+import LanguagePicker from "./LanguagePicker"
 
 function Header() {
+	const { t } = useTranslation()
+	const { languages, changeLanguage, defaultLanguage, language } = useI18next()
 	const activeSectionId = useActiveSectionId()
+	const linkPrePath = language === defaultLanguage ? "" : `/${language}`
 
 	return (
 		<Popover
@@ -19,22 +24,22 @@ function Header() {
 				<>
 					<nav className="sectionwidth flex justify-between items-center">
 						<AnchorLink
-							to={"/#" + nav.Home}
+							to={linkPrePath + "/#" + nav.Home}
 							className="p-2 rounded-xl hover:bg-accent-600 text-xl font-extrabold tracking-tighter text-primary"
 						>
 							MS
 						</AnchorLink>
-						<ul className="lg:flex gap-4 hidden">
+						<ul className="lg:flex gap-4 items-center hidden">
 							{Object.entries(nav).map(([name, id]) => (
 								<li key={name} className="relative text-center">
 									<AnchorLink
-										to={"/#" + id}
+										to={linkPrePath + "/#" + id}
 										className={clsx(
 											"p-2 rounded-xl hover:bg-accent-600 font-bold text-sm tracking-tighter",
 											id === activeSectionId && "text-primary"
 										)}
 									>
-										{name}
+										{t(name)}
 									</AnchorLink>
 									<div
 										className={clsx(
@@ -44,31 +49,44 @@ function Header() {
 									/>
 								</li>
 							))}
+							<LanguagePicker
+								language={language}
+								languages={languages}
+								setLanguage={changeLanguage}
+							/>
 						</ul>
-						<Popover.Button className="p-2 rounded lg:hidden hover:bg-accent-600 font-bold">
-							<FontAwesomeIcon icon={open ? faX : faBars} size="lg" />
-						</Popover.Button>
+
+						<div className="flex gap-4 lg:hidden items-center">
+							<LanguagePicker
+								language={language}
+								languages={languages}
+								setLanguage={changeLanguage}
+							/>
+							<Popover.Button className="p-2 rounded hover:bg-accent-600 font-bold">
+								<FontAwesomeIcon icon={open ? faX : faBars} size="lg" />
+							</Popover.Button>
+						</div>
 					</nav>
 					<Transition
 						as={Fragment}
 						enter="transition-all duration-300 ease-out overflow-hidden"
-						enterFrom="transform max-h-0"
-						enterTo="transform max-h-[50vh]"
+						enterFrom="max-h-0"
+						enterTo="max-h-[50vh]"
 						leave="transition-all duration-300 ease-in overflow-hidden"
-						leaveFrom="transform max-h-[50vh]"
-						leaveTo="transform max-h-0"
+						leaveFrom="max-h-[50vh]"
+						leaveTo="max-h-0"
 					>
 						<Popover.Panel as="nav" className="space-y-4 p-4">
 							{Object.entries(nav).map(([name, id]) => (
 								<AnchorLink
 									key={name}
-									to={"/#" + id}
+									to={linkPrePath + "/#" + id}
 									className={clsx(
 										"py-2 px-4 rounded-xl block hover:bg-accent-600 font-bold text-sm tracking-tighter w-full",
 										id === activeSectionId && "bg-primary/30"
 									)}
 								>
-									{name}
+									{t(name)}
 								</AnchorLink>
 							))}
 						</Popover.Panel>

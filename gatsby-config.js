@@ -54,7 +54,7 @@ module.exports = {
 			},
 		},
 
-		/* 		{
+		{
 			resolve: `gatsby-source-filesystem`,
 			options: {
 				path: `${__dirname}/src/locales`,
@@ -77,7 +77,17 @@ module.exports = {
 					keySeparator: false,
 					nsSeparator: false,
 				},
+				pages: [
+					{
+						matchPath: "/impressum",
+						excludeLanguages: ["en"],
+					},
+					{
+						matchPath: "/datenschutz",
+						excludeLanguages: ["en"],
+					},
+				],
 			},
-		}, */
+		},
 	],
 }

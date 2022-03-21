@@ -9,8 +9,6 @@ type Props = {
 }
 
 function Section(props: Props) {
-	console.log(props)
-
 	return (
 		<section
 			id={props.id}

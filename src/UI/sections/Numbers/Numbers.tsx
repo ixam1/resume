@@ -3,28 +3,34 @@ import nav from "../../../constants/nav"
 import { WaveDivider1 } from "../../components/Dividers"
 import Section from "../../components/Section"
 import SectionTitle from "../../components/SectionTitle"
-
-const stats = [
-	{
-		name: "Webseiten erstellt",
-		value: 16,
-	},
-	{
-		name: "Web-Applikationen entwickelt",
-		value: 3,
-	},
-	{
-		name: "professionelle Erfahrung als Webentwickler",
-		value: 4,
-		subtitle: "Jahre",
-	},
-]
+import { Trans, useTranslation } from "gatsby-plugin-react-i18next"
 
 function Numbers() {
+	const { t } = useTranslation()
+
+	const stats = [
+		{
+			name: t("Webseiten erstellt"),
+			value: 16,
+		},
+		{
+			name: t("Web-Applikationen entwickelt"),
+			value: 3,
+		},
+		{
+			name: t("professionelle Erfahrung als Webentwickler"),
+			value: 4,
+			subtitle: t("Jahre"),
+		},
+	]
+
 	return (
 		<Section id={nav.Zahlen} className="bg-accent text-white">
 			<SectionTitle>
-				Ein paar <u>Zahlen</u>
+				<Trans>Ein paar</Trans>{" "}
+				<u>
+					<Trans>Zahlen</Trans>
+				</u>
 			</SectionTitle>
 			<ul className="flex justify-center flex-wrap gap-8">
 				{stats.map((stat, index) => (
