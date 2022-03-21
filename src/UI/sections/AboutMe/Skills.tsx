@@ -77,11 +77,11 @@ function Skills() {
 					level: 2,
 				},
 				{
-					name: "GraphQL",
-					level: 1,
+					name: "Express.js",
+					level: 2,
 				},
 				{
-					name: "Express.js",
+					name: "GraphQL",
 					level: 1,
 				},
 			],

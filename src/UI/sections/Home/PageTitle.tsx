@@ -6,9 +6,9 @@ function PageTitle() {
 	const { t } = useTranslation()
 	const strings = [
 		t("heiße Maximilian Schaum."),
-		t("bin Webentwickler."),
-		t("liebe Front-End."),
-		t("scheue auch kein Back-End."),
+		t("bin Full-Stack Webentwickler."),
+		t("habe eine Leidenschaft für Front-End."),
+		t("bin erfahren im Back-End."),
 	]
 
 	return (

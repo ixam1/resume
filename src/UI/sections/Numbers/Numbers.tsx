@@ -18,9 +18,9 @@ function Numbers() {
 			value: 3,
 		},
 		{
-			name: t("professionelle Erfahrung als Webentwickler"),
-			value: 4,
-			subtitle: t("Jahre"),
+			name: t("im IT-Bereich tätig"),
+			value: 2014,
+			subtitle: t("Seit"),
 		},
 	]
 
@@ -39,10 +39,10 @@ function Numbers() {
 						className="flex flex-col items-center mx-4 sm:w-64 text-center"
 					>
 						<span className="text-6xl font-bold text-primary mb-3 relative">
-							{stat.value}
-							<span className="text-xs text-primary absolute top-[calc(100%-7px)] left-0">
+							<span className="text-xs text-primary absolute bottom-[calc(100%-7px)] left-0">
 								{stat.subtitle}
 							</span>
+							{stat.value}
 						</span>
 						<span className="text-lg font-medium text-accent-200">
 							{stat.name}

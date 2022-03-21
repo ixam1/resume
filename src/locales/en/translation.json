@@ -7,15 +7,15 @@
 	"Hallo": "Greetings",
 	"Ich": "I",
 	"heiße Maximilian Schaum.": "am Maximilian Schaum.",
-	"bin Webentwickler.": "am a Web Developer",
-	"liebe Front-End.": "love Front-End.",
-	"scheue auch kein Back-End.": "am not afraid of Back-End.",
+	"bin Full-Stack Webentwickler.": "am a Full-Stack Web Developer.",
+	"habe eine Leidenschaft für Front-End.": "am passionate about Front-End.",
+	"bin erfahren im Back-End.": "am experienced with Back-End.",
 	"Lebenslauf herunterladen": "Download my CV",
 
 	"Über mich": "About me",
 	"Ich heiße Maximilian Schaum.": "I´m Maximilian Schaum.",
 	"Webentwickler": "Web Developer",
-	"Zuverlässiger und motivierter Full-Stack Webentwickler mit langer IT-Erfahrung. Spezialisiert auf Front-End Entwicklung mit React.js, jedoch ohne Scheu zum Back-End. Leidenschaft zum kreativen Lösen von konkreten Problemen mit Hilfe des Webs. Anpassungsfähiger und lernbereiter Team-Player, mit der Fähigkeit eigenständig und zielgerichtet zu arbeiten und dem Willen die Extra-Meile zu gehen.": "Reliable and motivated Full-Stack Web Developer with vast Tech experience. Specialized in Front-End Development with React.js, not afraid of Back-End. Passionate for creatively finding solutions to concrete problems with the help of the Web. Adaptable team player, with the ability to work independently and the will to go the extra mile.",
+	"Zuverlässiger und motivierter Full-Stack Webentwickler mit langer IT-Erfahrung. Spezialisiert auf Front-End Entwicklung mit React.js, mit viel Erfahrung im Back-End. Leidenschaft zum kreativen Lösen von konkreten Problemen mit Hilfe des Webs. Anpassungsfähiger und lernbereiter Team-Player, mit der Fähigkeit eigenständig und zielgerichtet zu arbeiten und der Bereitschaft die Extra-Meile zu gehen.": "Reliable and motivated Full-Stack Web Developer with vast Tech experience. Specialized in Front-End Development with React.js, with lots of experience in Back-End. Passionate for creative solutions to concrete problems with the help of the Web. Adaptable team player, with the ability to work independently and the willingness to go the extra mile.",
 	"Fähigkeiten": "Skills",
 	"Datenbank": "Database",
 	"Sonstiges": "Other",
@@ -24,8 +24,8 @@
 	"Zahlen": "Numbers",
 	"Webseiten erstellt": "Webpages created",
 	"Web-Applikationen entwickelt": "Web-Applications developed",
-	"professionelle Erfahrung als Webentwickler": "professional experience as a Web Developer",
-	"Jahre": "Years",
+	"im IT-Bereich tätig": "in the IT field",
+	"Seit": "Since",
 
 	"Erfahrungen": "Experiences",
 	"Full-Stack Webentwickler | Geschäftsführer": "Full-Stack Web Developer | Founder",
@@ -62,13 +62,14 @@
 
 	"Bildung": "Education",
 	"Bachelor Mathematik / Informatik": "Bachelor Mathematics / Computer Science",
-	"Gründung der eigenen Firma während des Studiums": "Foundation of own company while enrolled",
+	"Gründung der eigenen Firma während des Studiums": "Foundation of own company while studying",
 	"Ausbildung zum Fachinformatiker für Anwendungsentwicklung": "Apprenticeship as IT specialist for software development",
 
 	"Kontaktiere mich": "Contact me",
 	"Ruf mich an": "Call me on",
 	"Schreib mir eine E-Mail": "Write me at",
 	"Finde mich in": "Find me in",
-	"Absenden": "Send Message",
-	"Nachricht": "Message"
+	"Absenden": "Send message",
+	"Nachricht": "Message",
+	"Schönefeld (Nahe Berlin)": "Schönefeld (Near Berlin)"
 }

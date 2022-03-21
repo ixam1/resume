@@ -27,7 +27,8 @@ function ContactIcons() {
 		{
 			title: t("Finde mich in"),
 			icon: faMapMarkerAlt,
-			text: contact.address,
+			text: t(contact.address),
+			href: "https://goo.gl/maps/LEaX2T8hrvwQBmQk8",
 		},
 	]
 
@@ -37,10 +38,12 @@ function ContactIcons() {
 				<li key={index} className="flex flex-col items-center">
 					<FontAwesomeIcon icon={item.icon} size="2x" />
 					<h3 className="font-medium text-primary mt-4 mb-1">{item.title}</h3>
-					{item.linkPre ? (
+					{item.linkPre || item.href ? (
 						<a
 							className="underline hover:text-primary-200"
-							href={`${item.linkPre}${item.text}`}
+							target="_blank"
+							rel="noopener noreferrer"
+							href={item.href || `${item.linkPre}${item.text}`}
 						>
 							<span>{item.text}</span>
 						</a>
