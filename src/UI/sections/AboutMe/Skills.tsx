@@ -19,7 +19,7 @@ function Skills() {
 			icon: faObjectsColumn,
 			skills: [
 				{
-					name: "React",
+					name: "React.js",
 					level: 3,
 				},
 				{

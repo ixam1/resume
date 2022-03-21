@@ -30,20 +30,20 @@ function Experience() {
 								description: t(
 									"Webseiten Design, Erstellung und SEO-Optimierung"
 								),
-								technologies: ["React", "Gatsby.js"],
+								technologies: ["React.js", "Gatsby.js"],
 							},
 							{
 								description: t(
 									"Firmeneigenes Website-Verwaltungssystem für Kunden"
 								),
-								technologies: ["React", "Meteor.js", "Node.js", "MongoDB"],
+								technologies: ["React.js", "Meteor.js", "Node.js", "MongoDB"],
 							},
 							{
 								description: t(
 									"Online-Analyse zum automatisierten Testen von Webseiten auf verschiedene Qualitätskriterien"
 								),
 								technologies: [
-									"React",
+									"React.js",
 									"RestAPI",
 									"Node.js",
 									"MongoDB",
@@ -76,7 +76,7 @@ function Experience() {
 							},
 							{
 								description: t("Webseiten Relaunch von WordPress zu Gatsby.js"),
-								technologies: ["React", "Gatsby.js"],
+								technologies: ["React.js", "Gatsby.js"],
 							},
 						],
 					},

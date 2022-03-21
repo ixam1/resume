@@ -28,7 +28,7 @@ function Education() {
 						title: t(
 							"Ausbildung zum Fachinformatiker für Anwendungsentwicklung"
 						),
-						subtitle: "IGEPA group GmbH & Co. KG",
+						subtitle: "Oberstufenzentrum Informations- und Medizintechnik",
 						time: "2014 - 2017",
 					},
 				]}
