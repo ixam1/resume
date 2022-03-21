@@ -1,4 +1,5 @@
 import React from "react"
+import Seo from "../UI/components/Seo"
 import Layout from "../UI/layout/Layout"
 import AboutMe from "../UI/sections/AboutMe"
 import CodeReference from "../UI/sections/CodeReference/CodeReference"
@@ -11,6 +12,12 @@ import Stats from "../UI/sections/Numbers"
 function Page() {
 	return (
 		<Layout>
+			<Seo
+				title="Maximilian Schaum - Full-Stack Webentwickler"
+				description="Zuverlässiger und motivierter Full-Stack Webentwickler mit langer
+				IT-Ausbildung. Spezialisiert auf Front-End Entwicklung, jedoch ohne
+				Scheu zum Back-End."
+			/>
 			<Hero />
 			<AboutMe />
 			<Stats />

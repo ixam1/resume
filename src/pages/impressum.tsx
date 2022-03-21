@@ -1,10 +1,12 @@
 import React from "react"
 import Section from "../UI/components/Section"
+import Seo from "../UI/components/Seo"
 import Layout from "../UI/layout/Layout"
 
 function impressum() {
 	return (
 		<Layout>
+			<Seo noIndex />
 			<Section fullscreen className="bg-accent">
 				<div className="prose prose-invert">
 					<h1>Impressum</h1>
