@@ -19,7 +19,7 @@ function Experience() {
 			<Timeline
 				timeline={[
 					{
-						title: t("Selbstständiger Webentwickler"),
+						title: t("Full-Stack Webentwickler | Geschäftsführer"),
 						subtitle: "Webentwicklung 030 Berlin GmbH",
 						time: t("März 2021 - aktuell"),
 						info: t(
