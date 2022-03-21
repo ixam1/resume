@@ -18,6 +18,7 @@ function ContactForm() {
 			<p className="hidden">
 				<label>
 					Don’t fill this out if you’re human: <input name="bot-field" />
+					<input type="hidden" name="form-name" value="Kontakt" />
 				</label>
 			</p>
 			<div className="grid md:grid-cols-2 gap-8">
