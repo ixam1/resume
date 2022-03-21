@@ -20,7 +20,7 @@ function Header() {
 					<nav className="sectionwidth flex justify-between items-center">
 						<AnchorLink
 							to={"/#" + nav.Home}
-							className="p-2 rounded-xl hover:bg-accent-600 text-xl font-extrabold tracking-tighter"
+							className="p-2 rounded-xl hover:bg-accent-600 text-xl font-extrabold tracking-tighter text-primary"
 						>
 							MS
 						</AnchorLink>

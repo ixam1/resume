@@ -1,5 +1,5 @@
 const siteMetadata = {
-	siteUrl: `https://www.yourdomain.tld`,
+	siteUrl: `https://max-s-resume.netlify.app/`,
 }
 
 /** @type {import('gatsby').GatsbyConfig} */
@@ -7,18 +7,18 @@ module.exports = {
 	siteMetadata,
 
 	plugins: [
-		/* {
+		{
 			resolve: "gatsby-plugin-manifest",
 			options: {
 				name: `Resume Maximilian Schaum`,
 				lang: `de`,
 				start_url: `/`,
-				background_color: `#FBF8F8`,
-				theme_color: `#fa5724`,
+				background_color: `#1E293B`,
+				theme_color: `#0ea5e9`,
 				display: `standalone`,
 				icon: "static/Favicon.png",
 			},
-		}, */
+		},
 
 		{
 			resolve: "gatsby-plugin-anchor-links",
