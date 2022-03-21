@@ -1,6 +1,6 @@
 import React from "react"
 import nav from "../../../constants/nav"
-import { WaveDivider1 } from "../../components/Dividers"
+import { WaveDivider2 } from "../../components/Dividers"
 import Section from "../../components/Section"
 import SectionTitle from "../../components/SectionTitle"
 import Timeline from "../../components/Timeline"
@@ -114,7 +114,7 @@ function Experience() {
 					},
 				]}
 			/>
-			<WaveDivider1 toColor="text-accent" />
+			<WaveDivider2 toColor="text-accent" />
 		</Section>
 	)
 }

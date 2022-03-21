@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../UI/layout/Layout"
 import AboutMe from "../UI/sections/AboutMe"
+import CodeReference from "../UI/sections/CodeReference/CodeReference"
 import Contact from "../UI/sections/Contact"
 import Education from "../UI/sections/Education"
 import Experience from "../UI/sections/Experience"
@@ -14,6 +15,7 @@ function Page() {
 			<AboutMe />
 			<Stats />
 			<Experience />
+			<CodeReference />
 			<Education />
 			<Contact />
 		</Layout>

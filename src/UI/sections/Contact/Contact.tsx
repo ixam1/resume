@@ -8,7 +8,7 @@ import ContactIcons from "./ContactIcons"
 
 function Contact() {
 	return (
-		<Section id={nav.Kontakt} className="bg-accent-900">
+		<Section id={nav.Kontakt} className="bg-accent">
 			<SectionTitle>
 				<u>Kontaktiere mich</u>
 			</SectionTitle>
@@ -18,7 +18,7 @@ function Contact() {
 					<ContactForm />
 				</div>
 			</div>
-			<WaveDividerMultiple toColor="text-accent" />
+			<WaveDividerMultiple toColor="text-accent-900" />
 		</Section>
 	)
 }

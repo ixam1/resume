@@ -7,7 +7,7 @@ import Timeline from "../../components/Timeline"
 
 function Education() {
 	return (
-		<Section id={nav.Bildung} className="bg-accent">
+		<Section id={nav.Bildung} className="bg-accent-900">
 			<SectionTitle>
 				<u>Bildung</u>
 			</SectionTitle>
@@ -26,7 +26,7 @@ function Education() {
 					},
 				]}
 			/>
-			<WaveDivider2 toColor="text-accent-900" />
+			<WaveDivider2 toColor="text-accent" />
 		</Section>
 	)
 }
