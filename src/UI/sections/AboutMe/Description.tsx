@@ -30,7 +30,7 @@ function Description() {
 			</p>
 			<p>
 				{t(
-					"Zuverlässiger und motivierter Full-Stack Webentwickler mit langer IT-Erfahrung. Spezialisiert auf Front-End Entwicklung, jedoch ohne Scheu zum Back-End. Leidenschaft zum kreativen Lösen von konkreten Problemen mit Hilfe des Webs. Anpassungsfähiger und lernbereiter Team-Player, mit der Fähigkeit eigenständig und zielgerichtet zu arbeiten und dem Willen die Extra-Meile zu gehen."
+					"Zuverlässiger und motivierter Full-Stack Webentwickler mit langer IT-Erfahrung. Spezialisiert auf Front-End Entwicklung mit React.js, jedoch ohne Scheu zum Back-End. Leidenschaft zum kreativen Lösen von konkreten Problemen mit Hilfe des Webs. Anpassungsfähiger und lernbereiter Team-Player, mit der Fähigkeit eigenständig und zielgerichtet zu arbeiten und dem Willen die Extra-Meile zu gehen."
 				)}
 			</p>
 		</div>
