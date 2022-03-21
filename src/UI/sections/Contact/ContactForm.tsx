@@ -6,7 +6,18 @@ import InputGroup from "./InputGroup"
 
 function ContactForm() {
 	return (
-		<form name="Kontakt" className="space-y-8 w-full" data-netlify="true">
+		<form
+			name="Kontakt"
+			method="POST"
+			className="space-y-8 w-full"
+			netlify-honeypot="bot-field"
+			data-netlify="true"
+		>
+			<p className="hidden">
+				<label>
+					Don’t fill this out if you’re human: <input name="bot-field" />
+				</label>
+			</p>
 			<div className="grid md:grid-cols-2 gap-8">
 				<InputGroup name="Name" required />
 				<InputGroup name="E-Mail" type="email" required />
