@@ -1,11 +1,18 @@
-import { Link } from "gatsby"
 import React from "react"
 import PrimaryButton from "../../components/PrimaryButton"
-import { Trans, useTranslation } from "gatsby-plugin-react-i18next"
+import { Trans, useI18next } from "gatsby-plugin-react-i18next"
 
 function ResumeButton() {
+	const { language } = useI18next()
 	return (
-		<PrimaryButton As={Link} to="/">
+		<PrimaryButton
+			As={"a"}
+			href={
+				language === "de"
+					? "/Maximilian Schaum - Lebenslauf Deutsch.pdf"
+					: "/Maximilian Schaum - Resume English.pdf"
+			}
+		>
 			<Trans>Lebenslauf herunterladen</Trans>
 		</PrimaryButton>
 	)
