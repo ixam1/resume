@@ -16,6 +16,7 @@ function Page() {
 	return (
 		<Layout>
 			<Seo
+				noIndex
 				title={t("Maximilian Schaum - Full-Stack Webentwickler")}
 				description={t(
 					"Zuverlässiger und motivierter Full-Stack Webentwickler mit langer IT-Erfahrung. Spezialisiert auf Front-End Entwicklung, jedoch ohne Scheu zum Back-End."
