@@ -25,7 +25,7 @@ function Experience() {
 						info: t(
 							"Gründung einer eigenen Webagentur mit ehemaligen Chef als Partner"
 						),
-						items: [
+						list: [
 							{
 								description: t(
 									"Webseiten Design, Erstellung und SEO-Optimierung"
@@ -35,9 +35,9 @@ function Experience() {
 
 							{
 								description: t(
-									"Implementieren von Schnittstellen zu externen Jobbörsen zur automatischen Übertragung von Jobs"
+									"Firmeneigenes Website-Verwaltungssystem für Kunden"
 								),
-								technologies: ["RestAPI"],
+								technologies: ["React.js", "Meteor.js", "Node.js", "MongoDB"],
 							},
 
 							{
@@ -45,13 +45,13 @@ function Experience() {
 									"Optimierung von Kunden Webseiten in Bezug auf organische Bewerbergewinnung - Steigerung von 0 - 1 Bewerbern zu 10 - 20 Bewerbern im Monat"
 								),
 							},
-
 							{
 								description: t(
-									"Firmeneigenes Website-Verwaltungssystem für Kunden"
+									"Implementieren von Schnittstellen zu externen Jobbörsen zur automatischen Übertragung von Jobs"
 								),
-								technologies: ["React.js", "Meteor.js", "Node.js", "MongoDB"],
+								technologies: ["RestAPI"],
 							},
+
 							{
 								description: t(
 									"Online-Analyse zum automatisierten Testen von Webseiten auf verschiedene Qualitätskriterien"
@@ -83,7 +83,7 @@ function Experience() {
 						title: t("Werkstudent Webentwicklung"),
 						subtitle: "VIPCRUITER GmbH",
 						time: t("Juni 2020 - März 2021"),
-						items: [
+						list: [
 							{
 								description: t("Webseiten Instandhaltung und Optimierung"),
 								technologies: ["WordPress", "PHP"],
@@ -99,7 +99,7 @@ function Experience() {
 						title: t("Werkstudent IT / Controlling"),
 						subtitle: "Mercedes-Benz AG",
 						time: t("September 2019 - Juni 2020"),
-						items: [
+						list: [
 							{
 								description: t("Reporting Dashboard Entwicklung"),
 								technologies: ["Longview", "Microsoft Power BI"],
@@ -121,7 +121,7 @@ function Experience() {
 						title: t("Werkstudent Webentwicklung"),
 						subtitle: "SCHAUM MASSIVHAUS",
 						time: t("Mai 2017 - August 2019"),
-						items: [
+						list: [
 							{
 								description: t(
 									"Webseiten Erstellung, Instandhaltung und Optimierung"
@@ -144,7 +144,7 @@ function Experience() {
 						title: t("Fachinformatiker für Anwendungsentwicklung"),
 						subtitle: "IGEPA group GmbH & Co. KG",
 						time: t("September 2014 - April 2017"),
-						items: [
+						list: [
 							{
 								description: t("JD Edwards E1 - Datenbankprogrammierung"),
 							},
