@@ -1,4 +1,5 @@
 import React from "react"
+import Analytics from "../UI/components/Analytics"
 import Section from "../UI/components/Section"
 import Seo from "../UI/components/Seo"
 import Layout from "../UI/layout/Layout"
@@ -7,6 +8,7 @@ function impressum() {
 	return (
 		<Layout>
 			<Seo noIndex />
+			<Analytics />
 			<Section fullscreen className="bg-accent">
 				<div className="prose prose-invert">
 					<h1>Impressum</h1>

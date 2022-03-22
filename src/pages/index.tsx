@@ -10,11 +10,13 @@ import Experience from "../UI/sections/Experience"
 import Hero from "../UI/sections/Home"
 import Stats from "../UI/sections/Numbers"
 import { useTranslation } from "gatsby-plugin-react-i18next"
+import Analytics from "../UI/components/Analytics"
 
 function Page() {
 	const { t } = useTranslation()
 	return (
 		<Layout>
+			<Analytics />
 			<Seo
 				noIndex
 				title={t("Maximilian Schaum - Full-Stack Webentwickler")}
