@@ -85,7 +85,7 @@ function Experience() {
 
 							{
 								description: t(
-									"8+ programmierte Webseiten, unter anderem Relaunch von WordPress Webseiten."
+									"8+ programmierte Webseiten, unter anderem Relaunch von WordPress Webseiten"
 								),
 								technologies: ["React.js", "Gatsby.js", "TailwindCSS"],
 								link: {
