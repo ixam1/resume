@@ -19,7 +19,13 @@ function Experience() {
 			<Timeline
 				timeline={[
 					{
-						title: t("Full-Stack Webentwickler | Geschäftsführer"),
+						title: "Software Engineer",
+						subtitle: "eBay",
+						time: t("Juni 2022 - aktuell"),
+					},
+
+					{
+						title: t("Software Engineer | Geschäftsführer"),
 						subtitle: "Webentwicklung 030 Berlin GmbH",
 						time: t("März 2021 - aktuell"),
 						info: t(
@@ -27,10 +33,47 @@ function Experience() {
 						),
 						list: [
 							{
+								description: t("Automatisiertes Website-Testing-Tool"),
+								technologies: [
+									"Node.js",
+									"React.js",
+									"MongoDB",
+									"Web-Scraping",
+									"RestAPI",
+									"Serverless",
+								],
+								link: {
+									href: "https://karriere-website.kaufen/kostenlose-analyse",
+									text: t("Teste es aus"),
+								},
+							},
+
+							{
 								description: t(
-									"Webseiten Design, Erstellung und SEO-Optimierung"
+									"Auslesen von Stellenanzeigen Daten von verschiedenen Webseiten, mit verschiedenen Ausleseanforderungen für eine zentralisierte Stellen-Datenbank"
 								),
-								technologies: ["React.js", "Gatsby.js"],
+								technologies: ["Web-Scraping", "Node.js", "MongoDB"],
+							},
+
+							{
+								description: t(
+									"CRM Web-Applikation für die Personalvermittlung"
+								),
+								technologies: ["Blaze", "Meteor.js", "Node.js", "MongoDB"],
+							},
+
+							{
+								description: t(
+									"Implementieren von Schnittstellen zu externen Jobbörsen zur automatischen Übertragung von Jobs"
+								),
+								technologies: ["RestAPI"],
+							},
+
+							{
+								description: t(
+									"Chrome Extension zum automatischen Erfassen von Daten mit direkter Schnittstelle zur CRM Applikation"
+								),
+								technologies: ["RestAPI", "Web-Scraping"],
 							},
 
 							{
@@ -42,39 +85,13 @@ function Experience() {
 
 							{
 								description: t(
-									"Optimierung von Kunden Webseiten in Bezug auf organische Bewerbergewinnung - Steigerung von 0 - 1 Bewerbern zu 10 - 20 Bewerbern im Monat"
+									"8+ programmierte Webseiten, unter anderem Relaunch von WordPress Webseiten."
 								),
-							},
-							{
-								description: t(
-									"Implementieren von Schnittstellen zu externen Jobbörsen zur automatischen Übertragung von Jobs"
-								),
-								technologies: ["RestAPI"],
-							},
-
-							{
-								description: t(
-									"Online-Analyse zum automatisierten Testen von Webseiten auf verschiedene Qualitätskriterien"
-								),
-								technologies: [
-									"React.js",
-									"RestAPI",
-									"Node.js",
-									"MongoDB",
-									"Netlify Background Functions",
-								],
-							},
-							{
-								description: t(
-									"CRM Web-Applikation für die Personalvermittlung"
-								),
-								technologies: ["Blaze", "Meteor.js", "Node.js", "MongoDB"],
-							},
-							{
-								description: t(
-									"Chrome Extension zum automatischen Erfassen von Daten mit direkter Schnittstelle zur CRM Applikation"
-								),
-								technologies: ["RestAPI"],
+								technologies: ["React.js", "Gatsby.js", "TailwindCSS"],
+								link: {
+									href: "https://karriere-website.kaufen/",
+									text: t("Beispiel Firmen Website"),
+								},
 							},
 						],
 					},

@@ -64,12 +64,18 @@ function Skills() {
 					name: "Meteor.js",
 					level: 3,
 				},
+
 				{
 					name: "Node.js",
 					level: 2,
 				},
+
 				{
 					name: "Rest API",
+					level: 2,
+				},
+				{
+					name: "Web-Scraping",
 					level: 2,
 				},
 				{
@@ -174,17 +180,17 @@ function Skills() {
 	]
 	return (
 		<div className="text-center text-white">
-			<h3 className="text-primary font-bold mb-4">
+			<h3 className="mb-4 font-bold text-primary">
 				<Trans>Fähigkeiten</Trans>
 			</h3>
-			<ul className="flex justify-center flex-wrap">
+			<ul className="flex flex-wrap justify-center">
 				{skillCategories.map((skillCategory, index) => (
-					<li key={index} className="w-full md:w-1/2 lg:w-1/3 p-6 space-y-4">
+					<li key={index} className="w-full p-6 space-y-4 md:w-1/2 lg:w-1/3">
 						<FontAwesomeIcon icon={skillCategory.icon} size="4x" />
 						<div className="text-xl font-bold text-primary">
 							{skillCategory.name}
 						</div>
-						<ul className="flex justify-center gap-2 flex-wrap">
+						<ul className="flex flex-wrap justify-center gap-2">
 							{skillCategory.skills.map((skill, index) => (
 								<li
 									key={index}
