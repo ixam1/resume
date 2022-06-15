@@ -19,7 +19,7 @@ function Experience() {
 			<Timeline
 				timeline={[
 					{
-						title: "Software Engineer",
+						title: "Senior Software Engineer",
 						subtitle: "eBay",
 						time: t("Juni 2022 - aktuell"),
 					},
