@@ -43,7 +43,7 @@ function Experience() {
 
 							{
 								description: t(
-									"Gewinn eines internen Wettbewerbs mit einem Prototyp für die Verbesserung der Karten-Sammel Funktion auf eBay. Ich hatte die Ehre die Idee der globalen Führung von eBay vorzustellen"
+									"Gewinn eines internen Wettbewerbs mit einem Prototyp für die Verbesserung der Karten-Sammel Funktion auf eBay. Ich hatte die Ehre unsere Idee der globalen Führung von eBay vorzustellen"
 								),
 								technologies: ["Node.js", "React.js"],
 							},
