@@ -9,7 +9,7 @@ import { Trans } from "gatsby-plugin-react-i18next"
 
 function Contact() {
 	return (
-		<Section id={nav.Kontakt} className="bg-accent">
+		<Section id={nav.Kontakt} className="bg-accent-900">
 			<SectionTitle>
 				<u>
 					<Trans>Kontaktiere mich</Trans>
@@ -21,7 +21,7 @@ function Contact() {
 					<ContactForm />
 				</div>
 			</div>
-			<WaveDividerMultiple toColor="text-accent-900" />
+			<WaveDividerMultiple toColor="text-accent" />
 		</Section>
 	)
 }

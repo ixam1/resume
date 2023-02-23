@@ -10,7 +10,7 @@ function Education() {
 	const { t } = useTranslation()
 
 	return (
-		<Section id={nav.Bildung} className="bg-accent-900">
+		<Section id={nav.Bildung} className="bg-accent">
 			<SectionTitle>
 				<u>
 					<Trans>Bildung</Trans>
@@ -45,7 +45,7 @@ function Education() {
 					},
 				]}
 			/>
-			<WaveDivider2 toColor="text-accent" />
+			<WaveDivider2 toColor="text-accent-900" />
 		</Section>
 	)
 }

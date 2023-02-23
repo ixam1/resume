@@ -31,6 +31,10 @@ function Skills() {
 					level: 3,
 				},
 				{
+					name: "Marko.js",
+					level: 2,
+				},
+				{
 					name: "Bootstrap",
 					level: 2,
 				},
@@ -42,10 +46,7 @@ function Skills() {
 					name: "Next.js",
 					level: 2,
 				},
-				{
-					name: "GSAP",
-					level: 2,
-				},
+
 				{
 					name: "Vue.js",
 					level: 1,
@@ -61,13 +62,8 @@ function Skills() {
 			icon: faRectangleTerminal,
 			skills: [
 				{
-					name: "Meteor.js",
-					level: 3,
-				},
-
-				{
 					name: "Node.js",
-					level: 2,
+					level: 3,
 				},
 
 				{
@@ -85,6 +81,14 @@ function Skills() {
 				{
 					name: "Express.js",
 					level: 2,
+				},
+				{
+					name: "Java",
+					level: 1,
+				},
+				{
+					name: "Scala",
+					level: 1,
 				},
 				{
 					name: "GraphQL",
@@ -147,22 +151,21 @@ function Skills() {
 				},
 
 				{
+					name: "Git",
+					level: 3,
+				},
+
+				{
+					name: "Github Actions",
+					level: 2,
+				},
+				{
 					name: "SEO",
 					level: 2,
 				},
 
 				{
 					name: "Chrome Extensions",
-					level: 2,
-				},
-
-				{
-					name: "Git",
-					level: 2,
-				},
-
-				{
-					name: "Github Actions",
 					level: 2,
 				},
 

@@ -1,36 +1,29 @@
 {
-	"Maximilian Schaum - Full-Stack Webentwickler": "Maximilian Schaum - Full-Stack Web Developer",
-	"Zuverlässiger und motivierter Full-Stack Webentwickler mit langer IT-Erfahrung. Spezialisiert auf Front-End Entwicklung, jedoch ohne Scheu zum Back-End.": "Reliable and motivated Full-Stack Web Developer with vast Tech experience. Specialized in Front-End Development, not afraid of Back-End.",
-
 	"Kontakt": "Contact",
 
 	"Hallo": "Greetings",
 	"Ich": "I",
 	"heiße Maximilian Schaum.": "am Maximilian Schaum.",
-	"bin Full-Stack Webentwickler.": "am a Full-Stack Web Developer.",
+	"bin erfahrener Software Engineer.": "am a Software Engineer.",
 	"habe eine Leidenschaft für Front-End.": "am passionate about Front-End.",
-	"bin erfahren im Back-End.": "am experienced with Back-End.",
+	"habe einen starken Hintergrund im Back-End.": "have a strong background in Back-End.",
 	"Lebenslauf herunterladen": "Download my CV",
 
 	"Über mich": "About me",
 	"Ich heiße Maximilian Schaum.": "I´m Maximilian Schaum.",
-	"Webentwickler": "Web Developer",
-	"Zuverlässiger und motivierter Full-Stack Webentwickler mit langer IT-Erfahrung. Spezialisiert auf Front-End Entwicklung mit React.js, mit viel Erfahrung im Back-End. Leidenschaft zum kreativen Lösen von konkreten Problemen mit Hilfe des Webs. Anpassungsfähiger und lernbereiter Team-Player, mit der Fähigkeit eigenständig und zielgerichtet zu arbeiten und der Bereitschaft die Extra-Meile zu gehen.": "Reliable and motivated Full-Stack Web Developer with vast Tech experience. Specialized in Front-End Development with React.js, with lots of experience in Back-End. Passionate for creative solutions to concrete problems with the help of the Web. Adaptable team player, with the ability to work independently and the willingness to go the extra mile.",
+	"Erfahrender und zuverlässiger Software Engineer. Spezialisiert auf Front-End Entwicklung mit React.js und ein ausgeprägter Back-End Hintergrund. Leidenschaft zum kreativen Lösen von konkreten Problemen mit Hilfe von Web-Technologien.": "Experienced and reliable Software Engineer. Specialized in Web Front-End Development with React.js and a strong background in Back-End. Passionate for creatively delivering solutions to concrete problems with the help of web technologies.",
 	"Fähigkeiten": "Skills",
 	"Datenbank": "Database",
 	"Sonstiges": "Other",
 
-	"Ein paar": "Some",
-	"Zahlen": "Numbers",
-	"Webseiten erstellt": "Websites created",
-	"Web-Applikationen entwickelt": "Web-Applications developed",
-	"im IT-Bereich tätig": "in the IT area",
-	"Seit": "Since",
-
 	"Erfahrungen": "Experiences",
 	"Juni 2022 - aktuell": "June 2022 - current",
-	"Software Engineer | Geschäftsführer": "Software Engineer | Founder",
+	"Verbesserung der Kundenerfahrung beim Kauf von sperrigen Artikeln, mit Arbeit an den wichtigsten Seiten auf eBay (Checkout und Artikelseite)": "Improved customer experience for buying bulky items in a cross-team, cross-border collaborative effort, working on the most important pages in eBay (Checkout and View Item)",
+	"Implementierung eines neuen Kaufberaters, der den Kunden hilft passende Artikel zu finden, mit einer soliden Conversion Rate von 2-5%": "Implemented a new shopping guide experience for costumers to help them find the right product, with a solid 2-5% conversion rate",
+	"Gewinn eines internen Wettbewerbs mit einem Prototyp für die Verbesserung der Karten-Sammel Funktion auf eBay. Ich hatte die Ehre die Idee der globalen Führung von eBay vorzustellen": "Won an internal competition, by making key contributions to a prototype focused on enhancing the trading card collection experience at eBay. I had the honor of pitching the idea to eBay global leadership",
+	"Realisierung von mehreren gesetzlich vorgeschriebenen Änderungen am Kündigungsprozess von eBay Plus, die u.a. verhinderten, dass die eBay App vom App Store fliegt": "Realized several legally required changes the cancelation process at eBay Plus and extended the cancelation experience to native apps, to prevent them from being kicked off the app store",
 
+	"Full-Stack Software Engineer | Geschäftsführer": "Full-Stack Software Engineer | Founder",
 	"März 2021 - aktuell": "March 2021 - current",
 	"Gründung einer eigenen Webagentur mit ehemaligen Chef als Partner": "Foundation of a Web Agency with former employer as partner",
 	"Automatisiertes Website-Testing-Tool": "Automated Website Testing Tool",
@@ -43,10 +36,11 @@
 	"8+ programmierte Webseiten, unter anderem Relaunch von WordPress Webseiten": "8+ programmed websites, including relaunches of WordPress websites",
 	"Beispiel Firmen Website": "See Company Website",
 
-	"Werkstudent Webentwicklung": "Working Student Web Development",
+	"Werkstudent Front-End Software Engineer": "Working Student Front-End Software Engineer",
 	"Juni 2020 - März 2021": "June 2020 - March 2021",
 	"Webseiten Instandhaltung und Optimierung": "Webpage maintenance and optimization",
 	"Webseiten Relaunch von WordPress zu Gatsby.js": "Relaunch of multiple webpages of WordPress to Gatsby.js",
+
 	"Werkstudent IT / Controlling": "Working Student IT / Controlling",
 	"September 2019 - Juni 2020": "September 2019 - June 2020",
 	"Reporting Dashboard Entwicklung": "Reporting Dashboard Development",
@@ -54,6 +48,7 @@
 	"Prozessmodellierung und -automatisierung": "Process modeling and automation",
 	"Arbeitszeugnis": "Employer's reference",
 
+	"Werkstudent IT": "Working Student IT",
 	"Mai 2017 - August 2019": "May 2017 - August 2019",
 	"Webseiten Erstellung, Instandhaltung und Optimierung": "Webpage creation, maintenance and optimization",
 	"IT-Administration und Buchhaltung": "IT-Administration and accounting",

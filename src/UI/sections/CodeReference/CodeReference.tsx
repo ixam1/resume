@@ -25,7 +25,7 @@ function CodeReference() {
 		},
 	]
 	return (
-		<Section id={nav.Code} className="bg-accent">
+		<Section id={nav.Code} className="bg-accent-900">
 			<SectionTitle>
 				<Trans>Diese Website ist</Trans> <u>Open-Source</u>
 			</SectionTitle>
@@ -57,7 +57,7 @@ function CodeReference() {
 			>
 				<Trans>Schau dir den Code an</Trans>
 			</PrimaryButton>
-			<WaveDivider1 toColor="text-accent-900" />
+			<WaveDivider1 toColor="text-accent" />
 		</Section>
 	)
 }

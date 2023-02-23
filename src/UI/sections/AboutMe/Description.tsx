@@ -6,7 +6,7 @@ import { Trans, useTranslation } from "gatsby-plugin-react-i18next"
 function Description() {
 	const { t } = useTranslation()
 
-	const titles = [t("Webentwickler"), "Front-End", "Back-End"]
+	const titles = ["Software Engineer", "Front-End", "Back-End"]
 
 	return (
 		<div className="text-white text-center">
@@ -30,7 +30,7 @@ function Description() {
 			</p>
 			<p>
 				{t(
-					"Zuverlässiger und motivierter Full-Stack Webentwickler mit langer IT-Erfahrung. Spezialisiert auf Front-End Entwicklung mit React.js, mit viel Erfahrung im Back-End. Leidenschaft zum kreativen Lösen von konkreten Problemen mit Hilfe des Webs. Anpassungsfähiger und lernbereiter Team-Player, mit der Fähigkeit eigenständig und zielgerichtet zu arbeiten und der Bereitschaft die Extra-Meile zu gehen."
+					"Erfahrender und zuverlässiger Software Engineer. Spezialisiert auf Front-End Entwicklung mit React.js und ein ausgeprägter Back-End Hintergrund. Leidenschaft zum kreativen Lösen von konkreten Problemen mit Hilfe von Web-Technologien."
 				)}
 			</p>
 		</div>

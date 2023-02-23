@@ -8,7 +8,6 @@ import Contact from "../UI/sections/Contact"
 import Education from "../UI/sections/Education"
 import Experience from "../UI/sections/Experience"
 import Hero from "../UI/sections/Home"
-import Stats from "../UI/sections/Numbers"
 import { useTranslation } from "gatsby-plugin-react-i18next"
 import Analytics from "../UI/components/Analytics"
 
@@ -19,14 +18,13 @@ function Page() {
 			<Analytics />
 			<Seo
 				noIndex
-				title={t("Maximilian Schaum - Full-Stack Webentwickler")}
+				title={"Maximilian Schaum - Software Engineer"}
 				description={t(
-					"Zuverlässiger und motivierter Full-Stack Webentwickler mit langer IT-Erfahrung. Spezialisiert auf Front-End Entwicklung, jedoch ohne Scheu zum Back-End."
+					"Erfahrender und zuverlässiger Software Engineer. Spezialisiert auf Front-End Entwicklung mit React.js und ein ausgeprägter Back-End Hintergrund. Leidenschaft zum kreativen Lösen von konkreten Problemen mit Hilfe von Web-Technologien."
 				)}
 			/>
 			<Hero />
 			<AboutMe />
-			<Stats />
 			<Experience />
 			<CodeReference />
 			<Education />

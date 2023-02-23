@@ -112,7 +112,7 @@ function TimelineItemList({
 	isOdd: boolean
 }) {
 	const { getCollapseProps, getToggleProps, isExpanded } = useCollapse({
-		collapsedHeight: 200,
+		collapsedHeight: 300,
 		duration: 500,
 	})
 
@@ -128,7 +128,7 @@ function TimelineItemList({
 				className={clsx(
 					"space-y-8 relative",
 					isToggable &&
-						"after:content-[''] after:absolute after:z-10 after:inset-0 after:pointer-events-none after:bg-gradient-to-b after:from-transparent after:to-accent-900 after:transition-opacity after:duration-500",
+						"after:content-[''] after:absolute after:z-10 after:inset-0 after:pointer-events-none after:bg-gradient-to-b after:from-transparent after:to-accent after:transition-opacity after:duration-500",
 					isToggable && !isExpanded && "after:opacity-100",
 					isToggable && isExpanded && "after:opacity-0"
 				)}

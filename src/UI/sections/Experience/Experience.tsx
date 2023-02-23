@@ -10,7 +10,7 @@ function Experience() {
 	const { t } = useTranslation()
 
 	return (
-		<Section id={nav.Erfahrungen} className="bg-accent-900">
+		<Section id={nav.Erfahrungen} className="bg-accent">
 			<SectionTitle>
 				<u>
 					<Trans>Erfahrungen</Trans>
@@ -19,13 +19,46 @@ function Experience() {
 			<Timeline
 				timeline={[
 					{
-						title: "Senior Software Engineer",
+						title: "Senior Software Engineer - Front-End",
 						subtitle: "eBay",
 						time: t("Juni 2022 - aktuell"),
+						list: [
+							{
+								description: t(
+									"Verbesserung der Kundenerfahrung beim Kauf von sperrigen Artikeln, mit Arbeit an den wichtigsten Seiten auf eBay (Checkout und Artikelseite)"
+								),
+								technologies: ["Node.js", "React.js", "Marko.js"],
+							},
+
+							{
+								description: t(
+									"Implementierung eines neuen Kaufberaters, der den Kunden hilft passende Artikel zu finden, mit einer soliden Conversion Rate von 2-5%"
+								),
+								technologies: ["HTML", "CSS", "JS"],
+								link: {
+									href: "https://pages.ebay.de/smartphone-kaufberater/",
+									text: t("Teste es aus"),
+								},
+							},
+
+							{
+								description: t(
+									"Gewinn eines internen Wettbewerbs mit einem Prototyp für die Verbesserung der Karten-Sammel Funktion auf eBay. Ich hatte die Ehre die Idee der globalen Führung von eBay vorzustellen"
+								),
+								technologies: ["Node.js", "React.js"],
+							},
+
+							{
+								description: t(
+									"Realisierung von mehreren gesetzlich vorgeschriebenen Änderungen am Kündigungsprozess von eBay Plus, die u.a. verhinderten, dass die eBay App vom App Store fliegt"
+								),
+								technologies: ["Node.js", "React.js", "Scala", "Java"],
+							},
+						],
 					},
 
 					{
-						title: t("Software Engineer | Geschäftsführer"),
+						title: t("Full-Stack Software Engineer | Geschäftsführer"),
 						subtitle: "Webentwicklung 030 Berlin GmbH",
 						time: t("März 2021 - aktuell"),
 						info: t(
@@ -46,13 +79,6 @@ function Experience() {
 									href: "https://karriere-website.kaufen/kostenlose-analyse",
 									text: t("Teste es aus"),
 								},
-							},
-
-							{
-								description: t(
-									"Auslesen von Stellenanzeigen Daten von verschiedenen Webseiten, mit verschiedenen Ausleseanforderungen für eine zentralisierte Stellen-Datenbank"
-								),
-								technologies: ["Web-Scraping", "Node.js", "MongoDB"],
 							},
 
 							{
@@ -78,6 +104,13 @@ function Experience() {
 
 							{
 								description: t(
+									"Auslesen von Stellenanzeigen Daten von verschiedenen Webseiten, mit verschiedenen Ausleseanforderungen für eine zentralisierte Stellen-Datenbank"
+								),
+								technologies: ["Web-Scraping", "Node.js", "MongoDB"],
+							},
+
+							{
+								description: t(
 									"Firmeneigenes Website-Verwaltungssystem für Kunden"
 								),
 								technologies: ["React.js", "Meteor.js", "Node.js", "MongoDB"],
@@ -97,7 +130,7 @@ function Experience() {
 					},
 
 					{
-						title: t("Werkstudent Webentwicklung"),
+						title: t("Werkstudent Front-End Software Engineer"),
 						subtitle: "VIPCRUITER GmbH",
 						time: t("Juni 2020 - März 2021"),
 						list: [
@@ -135,7 +168,7 @@ function Experience() {
 					},
 
 					{
-						title: t("Werkstudent Webentwicklung"),
+						title: t("Werkstudent IT"),
 						subtitle: "SCHAUM MASSIVHAUS",
 						time: t("Mai 2017 - August 2019"),
 						list: [
@@ -178,7 +211,7 @@ function Experience() {
 					},
 				]}
 			/>
-			<WaveDivider2 toColor="text-accent" />
+			<WaveDivider2 toColor="text-accent-900" />
 		</Section>
 	)
 }
